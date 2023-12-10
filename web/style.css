@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+}
+
+section{
+    width: 100%;
+    background-color: #ECFFDC;
+    position: relative;
+    
+
+}
+
+section header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    background-color: #D0F0C0;
+    position: relative;
+    z-index: 1;
+
+    
+}
+.logo{
+    margin-right: 500px;
+}
+section header ul{
+    list-style: none;
+
+}
+section header h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+section header ul li{
+
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 5px 20px;
+}
+section header ul li a{
+    color: green;
+    text-decoration: none;
+
+}
+section header ul li a:hover{
+    color: black;
+}
+section .hometxt {
+    background-color: #ECFFDC;
+}
+
+section .hometxt h1{
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 70px;
+    color: black;
+}
+section .hometxt h1 span{
+    color: #32CD32;
+}
+section .hometxt p{
+    width: 600px;
+    position: absolute;
+    top: 60%;
+    left: 4%;
+    line-height: 26px;
+    text-align: justify;
+}
+section .background_img{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    margin-left: 25px;
+    z-index: -1;
+}
+section .background_img2{
+
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-left: 80px;
+    z-index: -1;
+    
+    
+}
+section .btn{
+    position: relative;
+    top: 78%;
+    width: 200px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+section .btn .shop{
+    background: green;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+section .btn p{
+    padding: 10px 25px;
+    background: none;
+    border: 2px solid #005000;
+    cursor: pointer;
+    transition: 0.3s;
+}
+section .btn .shop:hover{
+    background-color: transparent;
+    color: black;
+}
+
+.about{
+    width: 100%;
+    height: 200vh;
+    padding: 70px;
+    background-color: #ECFFDC;
+}
+.about .box{
+    display: flex;
+    width: 100%;
+    padding: 50px 0;
+    align-items: center;
+    justify-content: center;
+}
+.about .box .card img{
+    width: 400px;
+}
